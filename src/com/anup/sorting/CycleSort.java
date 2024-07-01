@@ -13,9 +13,6 @@ public class CycleSort {
         int i=0;
         while(i < arr.length) {
             if(arr[i] != arr[arr[i]-1]) {
-//                int temp = arr[i];
-//                arr[i] = arr[arr[i]-1];
-//                arr[temp-1]=temp;
                 swap(arr, i, arr[i]-1);
             }else {
                 i++;
