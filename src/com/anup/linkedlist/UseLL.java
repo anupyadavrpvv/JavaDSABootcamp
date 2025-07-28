@@ -156,7 +156,7 @@ class LL {
         head = prev;
     }
 
-    private class Node{
+    private static class Node{
         private int value;
         private Node next;
 

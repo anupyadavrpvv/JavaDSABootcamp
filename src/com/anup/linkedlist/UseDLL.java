@@ -94,7 +94,7 @@ class DLL {
         }
     }
 
-    private class Node {
+    private static class Node {
         int val;
         Node next;
         Node prev;

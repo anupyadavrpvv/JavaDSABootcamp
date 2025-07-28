@@ -78,7 +78,7 @@ class CLL {
 
     }
 
-    private class Node {
+    private static class Node {
         int val;
         Node next;
 
